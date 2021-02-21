@@ -1,0 +1,23 @@
+{
+  "name": "@trilogy-group/eslint-config",
+  "version": "1.0.5",
+  "description": "Shareable eslint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trilogy-group/eng-code-rules.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Sérgio P Bernardes",
+  "bugs": {
+    "url": "https://github.com/trilogy-group/eng-code-rules/issues"
+  },
+  "homepage": "https://github.com/trilogy-group/eng-code-rules#readme",
+  "dependencies": {
+    "eslint-config-netflix": "^2.0.0",
+    "gts": "^3.1.0"
+  }
+}
