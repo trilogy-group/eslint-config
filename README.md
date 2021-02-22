@@ -1,40 +1,16 @@
 # eng-code-rules
-Repository to centralize and standardize linting rules
+Shareable ESLint rules for TypeScript to be used across all Ship Every Merge projects.
+
+Currently, it uses the [StandardJS ruleset for TypeScript](https://standardjs.com/#typescript), as per [this ITD](https://docs.google.com/document/d/1FQK4bWzh0YqBsCG52k1AXs-ra0wjyLBl1MGwQd7byaA/edit#heading=h.rkyqn2fv7ea1).
 
 ## Usage
-To apply the coding rules hereby proposed, extend your `.eslintrc.json` with `@trilogy-group/eslint-config` or just `@trilogy-group`.
-
-### Examples of `.eslintrc.json`
-Only the scope name, as the single rule extension
-```json
-{
-    "root": true,
-    "extends": "@trilogy-group",
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "project": "./tsconfig.json"
-    },
-    "plugins": [
-        "@typescript-eslint"
-    ],
-    "rules": {}
-}
 ```
-Fully scoped named along with other rules
+npm install @trilogy-group/eslint-config
+```
+
+Then, extend netflix in your .eslintrc:
 ```json
 {
-    "root": true,
-    "extends": [
-      "standard-with-typescript",
-      "@trilogy-group/eslint-config"
-    ],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "project": "./tsconfig.json"
-    },
-    "plugins": [
-        "@typescript-eslint"
-    ],
-    "rules": {}
+"extends": "@trilogy-group"
 }
 ```

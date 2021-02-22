@@ -17,7 +17,14 @@
   },
   "homepage": "https://github.com/trilogy-group/eng-code-rules#readme",
   "dependencies": {
-    "eslint-config-netflix": "^2.0.0",
-    "gts": "^3.1.0"
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "eslint": "^7.20.0",
+    "eslint-config-standard-with-typescript": "^20.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.3.9"
   }
 }
