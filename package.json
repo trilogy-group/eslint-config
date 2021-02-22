@@ -1,6 +1,6 @@
 {
   "name": "@trilogy-group/eslint-config",
-  "version": "1.0.5",
+  "version": "0.0.0",
   "description": "Shareable eslint config",
   "main": "index.js",
   "repository": {
