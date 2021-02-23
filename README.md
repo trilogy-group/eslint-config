@@ -8,9 +8,9 @@ Currently, it uses the [StandardJS ruleset for TypeScript](https://standardjs.co
 npm install @trilogy-group/eslint-config
 ```
 
-Then, extend netflix in your .eslintrc:
+Then, extend the rules in your .eslintrc:
 ```json
 {
-"extends": "@trilogy-group"
+  "extends": "@trilogy-group/eslint-config"
 }
 ```
