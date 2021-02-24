@@ -12,7 +12,7 @@ We don't design for exceptions, so a quality issue should have been observed thr
 
 ## Usage
 ```
-npm install @trilogy-group/eslint-config
+npm install -D @trilogy-group/eslint-config
 ```
 
 Then, extend the rules in your .eslintrc:
