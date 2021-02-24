@@ -1,4 +1,4 @@
-Trilogy ESLint rules for TypeScript to be used across all new products.
+Trilogy ESLint rules to be used across all new TypeScript products.
 
 We base our rules on the [StandardJS ruleset for TypeScript](https://standardjs.com/#typescript), as per [this ITD](https://docs.google.com/document/d/1FQK4bWzh0YqBsCG52k1AXs-ra0wjyLBl1MGwQd7byaA/edit#heading=h.rkyqn2fv7ea1).
 
