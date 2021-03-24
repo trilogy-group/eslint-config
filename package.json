@@ -16,6 +16,9 @@
     "url": "https://github.com/trilogy-group/eng-code-rules/issues"
   },
   "homepage": "https://github.com/trilogy-group/eng-code-rules#readme",
+  "scripts": {
+    "test": "cd test && npx eslint *.ts"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "eslint": "^7.20.0",
