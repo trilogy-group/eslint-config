@@ -20,7 +20,8 @@ module.exports = {
             files: [ '**/*.spec.*', '**/*.test.*' ],
             rules: {
                 // unit tests need to create mocks easily, relax objectLiteralTypeAssertions
-                '@typescript-eslint/consistent-type-assertions': [ 'error', { assertionStyle: 'as', objectLiteralTypeAssertions: 'allow' } ]
+                '@typescript-eslint/consistent-type-assertions': [ 'error', { assertionStyle: 'as', objectLiteralTypeAssertions: 'allow' } ],
+                '@typescript-eslint/no-explicit-any': 'off'
             }
         }
     ]
