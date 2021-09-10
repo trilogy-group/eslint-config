@@ -22,6 +22,12 @@ module.exports = {
                 // unit tests need to create mocks easily, relax objectLiteralTypeAssertions
                 '@typescript-eslint/consistent-type-assertions': [ 'error', { assertionStyle: 'as', objectLiteralTypeAssertions: 'allow' } ]
             }
+        },
+        {
+            "files": ["**/frontend/*.js", "**/frontend/*.ts"],
+            "rules": {
+                "no-console": "error"
+            }
         }
     ]
 }
