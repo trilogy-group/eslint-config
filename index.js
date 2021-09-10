@@ -15,15 +15,15 @@ module.exports = {
         'no-unused-labels': 'error'
     },
     overrides: [
-        // unit tests
         {
+            // unit tests
             files: [ '**/*.spec.*', '**/*.test.*' ],
             rules: {
                 // unit tests need to create mocks easily, relax objectLiteralTypeAssertions
                 '@typescript-eslint/consistent-type-assertions': [ 'error', { assertionStyle: 'as', objectLiteralTypeAssertions: 'allow' } ]
             }
         }, {
-            // we need no-console to run on frontend 
+            // no-console to run on frontend 
             files: ['**/frontend/*.js', '**/frontend/*.ts'],
             rules: {
                 'no-console': 'error'
