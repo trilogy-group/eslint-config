@@ -24,7 +24,7 @@ module.exports = {
             }
         }, {
             // no-console to run on frontend 
-            files: ['**/frontend/*.js', '**/frontend/*.ts'],
+            files: ['**/frontend/**/*.js', '**/frontend/**/*.ts'],
             rules: {
                 'no-console': 'error'
             }
