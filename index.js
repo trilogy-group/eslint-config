@@ -12,7 +12,8 @@ module.exports = {
         'no-func-assign': 'error',
         'no-shadow': 'off',
         '@typescript-eslint/no-shadow': 'error',
-        'no-unused-labels': 'error'
+        'no-unused-labels': 'error',
+        'no-console': 'error'
     },
     overrides: [
         {
@@ -21,12 +22,6 @@ module.exports = {
             rules: {
                 // unit tests need to create mocks easily, relax objectLiteralTypeAssertions
                 '@typescript-eslint/consistent-type-assertions': [ 'error', { assertionStyle: 'as', objectLiteralTypeAssertions: 'allow' } ]
-            }
-        }, {
-            // no-console to run on frontend 
-            files: ['**/frontend/**/*.js', '**/frontend/**/*.ts'],
-            rules: {
-                'no-console': 'error'
             }
         }
     ]
