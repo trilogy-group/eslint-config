@@ -3,6 +3,7 @@ module.exports = {
         'standard-with-typescript'
     ],
     rules: {
+        'no-var': 'error',
         '@typescript-eslint/ban-types': 'error',
         '@typescript-eslint/explicit-module-boundary-types': 'error',
         '@typescript-eslint/no-explicit-any': 'error',
