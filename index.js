@@ -12,11 +12,12 @@ module.exports = {
         'no-func-assign': 'error',
         'no-shadow': 'off',
         '@typescript-eslint/no-shadow': 'error',
-        'no-unused-labels': 'error'
+        'no-unused-labels': 'error',
+        'no-console': 'error'
     },
     overrides: [
-        // unit tests
         {
+            // unit tests
             files: [ '**/*.spec.*', '**/*.test.*' ],
             rules: {
                 // unit tests need to create mocks easily, relax objectLiteralTypeAssertions
