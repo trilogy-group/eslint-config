@@ -14,7 +14,8 @@ module.exports = {
         'no-shadow': 'off',
         '@typescript-eslint/no-shadow': 'error',
         'no-unused-labels': 'error',
-        'no-console': 'error'
+        'no-console': 'error',
+        'max-depth': 'error'
     },
     overrides: [
         {
