@@ -10,6 +10,15 @@ Your request must be supported by evidence. The most compelling example is a dee
 
 We don't design for exceptions, so a quality issue should have been observed three times before a rule is changed.
 
+## npm Setup
+Create a [personal access token](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) and updated your `~/.npmrc` file to configure NPM to use it as follows:
+
+~/.npmrc
+```
+@trilogy-group:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=${PAT_TOKEN}
+```
+
 ## Usage
 ```
 npm install -D @trilogy-group/eslint-config
